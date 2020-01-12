@@ -1,0 +1,26 @@
+Git install of In linux
+
+       which git
+   97  yum install git
+   98  which git
+   99  git init
+  100  ls -l
+  101  ls -la
+  102  cd .git/
+  103  ls
+  104  cat config
+  105  cd ..
+  106  ls
+  107  git config --global user.name "awsexpert2020"
+  108  git config --global email.name "awsexpert2020@gmail.com"
+  109  git config --global --list
+  110  git status
+  111  git add file1.txt
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m "First commit"
+  116  git status
+  117  git log
+  118  git remote add origin https://github.com/awsexpert2020/awsgit.git
+  119  git push -u origin
